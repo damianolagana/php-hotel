@@ -49,8 +49,13 @@
 
     ];
 
-?>
 
+    foreach($hotels as $hotel){
+        foreach($hotel as $info){
+            echo $info . "<br>";
+        }
+    }
+?>
 
 </body>
 </html>
